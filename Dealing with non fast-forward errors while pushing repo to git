@@ -9,6 +9,7 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 use the below code to resolve the issue
 -------------------------------------------------------------------------------
 The full syntax is:
-----------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
 git pull --rebase origin main
 git push origin main
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
