@@ -1,0 +1,14 @@
+error: failed to push some refs to 'https://github.com/NikhilBokade43/ReportsGenerationAPI.git'
+--------------------------------------------------------------------------------
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+use the below code to resolve the issue
+-------------------------------------------------------------------------------
+The full syntax is:
+----------------------------
+git pull --rebase origin main
+git push origin main
